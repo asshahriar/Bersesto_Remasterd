@@ -9,7 +9,7 @@ export default function AboutSection() {
 				{/* ================= LEFT CARD ================= */}
 				<div className="group relative aspect-[0.68] overflow-hidden">
 					<Image
-						src="/images/about-restaurant.jpg"
+						src="/restaurantimg.png"
 						alt="Bersesto restaurant"
 						fill
 						className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -71,7 +71,7 @@ export default function AboutSection() {
 				{/* ================= RIGHT CARD ================= */}
 				<div className="group relative aspect-[0.68] overflow-hidden">
 					<Image
-						src="/images/about-chef.jpg"
+						src="/chefimg.png"
 						alt="Chef preparing food at Bersesto"
 						fill
 						className="object-cover transition-transform duration-700 group-hover:scale-105"

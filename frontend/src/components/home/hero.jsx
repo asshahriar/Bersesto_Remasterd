@@ -25,7 +25,7 @@ export default function Hero() {
 					{/* Badge */}
 					<div className="mb-5 inline-flex rounded-full border border-white/30 bg-black/20 px-3 py-1.5 backdrop-blur-sm">
 						<span className="text-[10px] font-medium sm:text-xs">
-							Best Restaurant
+							Florence, Italy
 						</span>
 					</div>
 

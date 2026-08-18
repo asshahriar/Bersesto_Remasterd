@@ -42,7 +42,7 @@ export default function FeaturedSection() {
 				relative
 				overflow-hidden
 				bg-primary
-				bg-[url('/images/featured-pattern.png')]
+				bg-[url('/featuredbg.png')]
 				bg-cover
 				bg-center
 				bg-no-repeat

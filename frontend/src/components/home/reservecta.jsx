@@ -20,7 +20,7 @@ export default function ReserveCTA() {
 			{/* Background Image */}
 			<div className="absolute inset-0">
 				<img
-					src="/images/reserve-cta.jpg"
+					src="/reservecta.png"
 					alt=""
 					className="h-full w-full object-cover"
 				/>
