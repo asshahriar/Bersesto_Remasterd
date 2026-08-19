@@ -7,7 +7,7 @@ const authMiddleware = async (req, res, next) => {
 
 		if (!token) {
 			return res.status(401).json({
-				sucess: false,
+				success: false,
 				message: "Authentication required",
 			});
 		}

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import LogoutButton from "@/components/auth/LogoutButton";
 
 const navigation = [
 	{
@@ -54,6 +55,9 @@ export default function AdminSidebar() {
 						);
 					})}
 				</nav>
+				<div className="mt-auto border-t border-dark/10 pt-6">
+					<LogoutButton />
+				</div>
 			</div>
 		</aside>
 	);
