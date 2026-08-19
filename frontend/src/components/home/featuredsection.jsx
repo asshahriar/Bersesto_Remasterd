@@ -38,30 +38,12 @@ const featuredItems = [
 export default function FeaturedSection() {
 	return (
 		<section
-			className="
-				relative
-				overflow-hidden
-				bg-primary
-				bg-[url('/featuredbg.png')]
-				bg-cover
-				bg-center
-				bg-no-repeat
-			"
-		>
+			className="relative overflow-hidden bg-primary bg-[url('/featuredbg.png')] bg-cover bg-center bg-no-repeat">
 			<div className="relative z-10 mx-auto max-w-[1400px] px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">
 				{/* Header */}
 				<div className="mb-10 flex items-end justify-between gap-6 sm:mb-12">
 					<h2
-						className="
-							font-young-serif
-							max-w-2xl
-							text-4xl
-							leading-[0.95]
-							text-dark
-							sm:text-5xl
-							lg:text-6xl
-						"
-					>
+						className="font-young-serif max-w-2xl text-4xl leading-[0.95] 	text-dark sm:text-5xl lg:text-6xl">
 						Our All-time Best Cuisines
 					</h2>
 

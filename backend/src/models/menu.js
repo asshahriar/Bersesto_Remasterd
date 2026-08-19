@@ -6,20 +6,12 @@ const menuSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 			trim: true,
-			maxlength: 100,
 		},
 
 		description: {
 			type: String,
 			required: true,
 			trim: true,
-			maxlength: 500,
-		},
-
-		price: {
-			type: Number,
-			required: true,
-			min: 0,
 		},
 
 		category: {
@@ -30,12 +22,15 @@ const menuSchema = new mongoose.Schema(
 
 		image: {
 			type: String,
-			default: "",
+			publicId: String,
+			required: true,
 		},
 
-		isAvailable: {
-			type: Boolean,
-			default: true,
+		rating: {
+			type: Number,
+			required: true,
+			min: 0,
+			max: 5,
 		},
 	},
 	{

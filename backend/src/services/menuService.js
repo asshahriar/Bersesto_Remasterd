@@ -1,4 +1,4 @@
-import Menu from "../models/Menu.js";
+import Menu from "../models/menu.js";
 
 export const createMenuItem = async (data) => {
 	const menuItem = await Menu.create(data);

@@ -13,13 +13,14 @@ export const createMenuSchema = z.object({
 		.min(5, "Description must be at least 5 characters")
 		.max(500, "Description cannot exceed 500 characters"),
 
-	price: z.number().positive("Price must be greater than 0"),
-
 	category: z.string().trim().min(2, "Category is required"),
 
-	image: z.string().url("Image must be a valid URL").optional(),
+	image: z.string().url("Image must be a valid URL"),
 
-	isAvailable: z.boolean().optional(),
+	rating: z
+		.number()
+		.min(0, "Rating cannot be less than 0")
+		.max(5, "Rating cannot exceed 5"),
 });
 
 export const updateMenuSchema = createMenuSchema.partial();
